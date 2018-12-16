@@ -1,18 +1,10 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="SMPA:war exploded">
     <output-path>$PROJECT_DIR$/target/SMPA</output-path>
-    <properties id="maven-jee-properties">
-      <options>
-        <exploded>true</exploded>
-        <module>SMPA</module>
-        <packaging>war</packaging>
-      </options>
-    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="SMPA" />
-          <element id="jpa-descriptors" facet="SMPA/jpa/JPA" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
@@ -45,7 +37,8 @@
           <element id="library" level="project" name="Maven: javax.el:javax.el-api:3.0.0" />
           <element id="library" level="project" name="Maven: javax.interceptor:javax.interceptor-api:1.2" />
           <element id="library" level="project" name="Maven: javax.json.bind:javax.json.bind-api:1.0" />
-          <element id="library" level="project" name="JPA 2.1-2.1" />
+          <element id="library" level="project" name="Maven: org.bitbucket.b_c:jose4j:0.6.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
         </element>
       </element>
       <element id="directory" name="META-INF">
