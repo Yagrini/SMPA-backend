@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+<<<<<<< Updated upstream
       <artifact name="SMPA:war" />
     </artifacts-to-build>
   </component>
@@ -15,6 +16,105 @@
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
     </list>
+=======
+      <artifact name="SMPA:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e88248c6-e557-450b-8862-4d89a8d7b4b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SMPA_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/SMPA.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/controllers/AdministratorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/controllers/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Administrator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/EquivalentModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Field.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/FieldModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Module.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Notification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Review.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/StudyContract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/University.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/UserNotification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/EquivalentModuleCK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/FieldModuleCK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/StudentUniversityCK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/UserNotificationCK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/enumerations/SessionEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/enumerations/StudyContractEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/models/AdministratorDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/models/ExceptionDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/models/Model.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/utils/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/aopalliance-repackaged-2.5.0-b42.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/cdi-api-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/commonj.sdo-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/eclipselink-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/hk2-api-2.5.0-b42.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/hk2-locator-2.5.0-b42.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/hk2-utils-2.5.0-b42.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/javassist-3.22.0-CR2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/javax.annotation-api-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/javax.el-api-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/javax.inject-2.5.0-b42.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/javax.interceptor-api-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/javax.json-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/javax.json-api-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/javax.json.bind-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/javax.persistence-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/javax.ws.rs-api-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/jersey-client-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/jersey-common-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/jersey-container-servlet-core-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/jersey-hk2-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/jersey-media-jaxb-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/jersey-media-json-binding-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/jersey-server-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/mysql-connector-java-8.0.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/lib/yasson-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/SMPA.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllers/AdministratorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllers/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/Administrator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/EquivalentModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/Field.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/FieldModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/Module.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/Notification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/Review.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/StudyContract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/University.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/UserNotification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/composite_key/EquivalentModuleCK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/composite_key/FieldModuleCK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/composite_key/StudentUniversityCK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/composite_key/UserNotificationCK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/enumerations/SessionEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/enumerations/StudyContractEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/models/AdministratorDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/models/ExceptionDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/models/Model.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/AdministratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/AdministratorController.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+>>>>>>> Stashed changes
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +122,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< Updated upstream
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -91,11 +192,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/src/main/java/controllers/filters/SecurityFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="467">
@@ -120,11 +231,22 @@
               <caret line="68" column="50" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/AdministratorController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1399#1400#0" expanded="true" />
+                <element signature="e#1426#1427#0" expanded="true" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controllers/SecuredResource.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -134,15 +256,23 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> Stashed changes
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< Updated upstream
+=======
+        <option value="Enum" />
+        <option value="Interface" />
+>>>>>>> Stashed changes
         <option value="Class" />
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="FindInProjectRecents">
     <findStrings>
       <find>dty</find>
@@ -154,12 +284,15 @@
       <find>Not allowed to access this resource!</find>
     </findStrings>
   </component>
+=======
+>>>>>>> Stashed changes
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/LoggingFilter.java" />
@@ -182,16 +315,60 @@
         <option value="$PROJECT_DIR$/src/main/java/controllers/filters/SecurityFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/ResetPassword.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/services/PasswordResetService.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/demo/MyFirstServlet.java" />
+        <option value="$PROJECT_DIR$/web/demo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/MyFirstServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enumerations/StudyContractType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Session.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/UserNotificationCK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/composite_key/UserNotificationCK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/composite_key/StudentUniversityCK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/composite_key/FieldModuleCK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Administrator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Field.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/FieldModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Notification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Review.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/StudyContract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/UserNotification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enumerations/StudyContractEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enumerations/SessionEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/composite_key/EquivalentModuleCK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Module.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/EquivalentModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/MyFirstServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/TestServlet.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/models/DAOException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/DAOModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Model.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/AdministratorDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/University.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Util.java" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/src/main/java/controllers/AdministratorController.java" />
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+=======
+>>>>>>> Stashed changes
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -199,6 +376,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+<<<<<<< Updated upstream
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -214,17 +392,30 @@
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="963" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< Updated upstream
       <pane id="Scope" />
+=======
+>>>>>>> Stashed changes
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
+<<<<<<< Updated upstream
               <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -236,25 +427,49 @@
             <path>
               <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="SMPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+<<<<<<< Updated upstream
               <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="SMPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+<<<<<<< Updated upstream
               <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="SMPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+<<<<<<< Updated upstream
               <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -299,16 +514,41 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+              <item name="SMPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> Stashed changes
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< Updated upstream
+=======
+      <pane id="Scope" />
+>>>>>>> Stashed changes
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< Updated upstream
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544662877068" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -321,6 +561,23 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/target/SMPA/WEB-INF/classes" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544042740225" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4361335" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Utilisateurs\Ayman\Documents\IdeaProjects\SMPA\web" />
+      <recent name="D:\Utilisateurs\Ayman\Documents\IdeaProjects\SMPA\src\main\java" />
+>>>>>>> Stashed changes
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,6 +592,7 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Tomcat Server.SMPA">
     <configuration name="PasswordResetService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controllers.services.PasswordResetService" />
@@ -367,21 +625,28 @@
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="SMPA:war">
+=======
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.5">
+    <configuration name="Tomcat 9.0.5 (2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SMPA:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/SMPA_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SMPA-backend_3" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SMPA" />
+        <option name="HTTP_PORT" value="8081" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53802" />
+        <option name="DEBUG_PORT" value="60441" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -431,11 +696,103 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
+          <artifact name="SMPA:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SMPA:war exploded">
+>>>>>>> Stashed changes
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+<<<<<<< Updated upstream
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SMPA-backend_3" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53802" />
+=======
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_5_SMPA_2" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64490" />
+>>>>>>> Stashed changes
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+<<<<<<< Updated upstream
           <artifact name="SMPA:war" />
+=======
+          <artifact name="SMPA:war exploded" />
+>>>>>>> Stashed changes
         </option>
       </method>
     </configuration>
     <list>
+<<<<<<< Updated upstream
       <item itemvalue="Tomcat Server.SMPA" />
       <item itemvalue="Application.UserDAO" />
       <item itemvalue="Application.PasswordResetService" />
@@ -446,12 +803,18 @@
         <item itemvalue="Application.UserDAO" />
       </list>
     </recent_temporary>
+=======
+      <item itemvalue="Tomcat Server.Tomcat 9.0.5 (2)" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.5" />
+    </list>
+>>>>>>> Stashed changes
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< Updated upstream
       <changelist id="781a63a4-ed22-4075-ab91-9117e815e2cd" name="Default Changelist" comment="" />
       <created>1544043682994</created>
       <option name="number" value="Default" />
@@ -481,6 +844,108 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2802198" />
+=======
+      <changelist id="e88248c6-e557-450b-8862-4d89a8d7b4b0" name="Default Changelist" comment="" />
+      <created>1542580925758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542580925758</updated>
+      <workItem from="1542580929753" duration="3945000" />
+      <workItem from="1542623162473" duration="6621000" />
+      <workItem from="1542664988145" duration="3642000" />
+      <workItem from="1542747532797" duration="11592000" />
+      <workItem from="1542843067242" duration="682000" />
+      <workItem from="1542843961892" duration="567000" />
+      <workItem from="1542917591224" duration="32000" />
+      <workItem from="1542972663271" duration="3062000" />
+      <workItem from="1543010426081" duration="1270000" />
+      <workItem from="1543011876981" duration="2262000" />
+      <workItem from="1543059039497" duration="1573000" />
+      <workItem from="1543065678779" duration="1318000" />
+      <workItem from="1543079264738" duration="2190000" />
+      <workItem from="1543088271506" duration="221000" />
+      <workItem from="1543100010561" duration="66000" />
+      <workItem from="1543101026763" duration="6000" />
+      <workItem from="1543109724526" duration="1581000" />
+      <workItem from="1543149273794" duration="14145000" />
+      <workItem from="1543176110463" duration="1662000" />
+      <workItem from="1543183763599" duration="19000" />
+      <workItem from="1543430440845" duration="1976000" />
+      <workItem from="1543502682451" duration="32000" />
+      <workItem from="1543704232450" duration="2247000" />
+      <workItem from="1543756992747" duration="42000" />
+      <workItem from="1544038779920" duration="6000" />
+      <workItem from="1544042591659" duration="196000" />
+      <workItem from="1544228311665" duration="851000" />
+      <workItem from="1544972421909" duration="402000" />
+    </task>
+    <task id="LOCAL-00001" summary="model: implement JPA&#10;&#10;- define all entities using JPA&#10;- create DAO class">
+      <created>1543015372253</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543015372253</updated>
+    </task>
+    <task id="LOCAL-00002" summary="model: implement JPA&#10;&#10;- define all entities using JPA">
+      <created>1543060167194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543060167194</updated>
+    </task>
+    <task id="LOCAL-00003" summary="model: implement JPA&#10;&#10;- define all entities using JPA">
+      <created>1543079901357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543079901357</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tetete">
+      <created>1543080809893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543080809893</updated>
+    </task>
+    <task id="LOCAL-00005" summary="model: implement JPA&#10;&#10;- define all entities using JPA">
+      <created>1543176241159</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543176241159</updated>
+    </task>
+    <task id="LOCAL-00006" summary="controller: interface Controller&#10;&#10;- All controllers must implement this interface to handle all HTTP requests">
+      <created>1543176723792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543176723792</updated>
+    </task>
+    <task id="LOCAL-00007" summary="model: Model and ExceptionDAO&#10;&#10;- Model allow to initialize the entity manager.&#10;- ExceptionDAO allow to handle errors.">
+      <created>1543176896799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543176896799</updated>
+    </task>
+    <task id="LOCAL-00008" summary="util : add class Util&#10;&#10;- hashing : Calculate the MD5 of string using the algorithm RSA and return the result.&#10;- getCurrentDatetime : return the current date in datetime format.">
+      <created>1543177146060</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543177146060</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="62208000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24630873" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -488,14 +953,23 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
+<<<<<<< Updated upstream
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.19897959" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.19977038" />
+=======
+      <window_info id="Learn" order="8" />
+      <window_info id="Web" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.3243626" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50061053" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
@@ -503,11 +977,22 @@
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Application Servers" order="12" sideWeight="0.4993895" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32959184" />
+=======
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3838527" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.22521247" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+>>>>>>> Stashed changes
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+<<<<<<< Updated upstream
       <window_info anchor="right" id="CDI" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="right" id="Database" order="7" weight="0.32967034" />
@@ -515,10 +1000,60 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
+=======
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="CDI" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24765101" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Learn" order="8" />
+      <window_info id="Web" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.3243626" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.22521247" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Maven" order="11" />
+    </layout-to-restore>
+>>>>>>> Stashed changes
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< Updated upstream
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -613,10 +1148,245 @@
           <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="model: implement JPA&#10;&#10;- define all entities using JPA&#10;- create DAO class" />
+    <MESSAGE value="tetete" />
+    <MESSAGE value="model: implement JPA&#10;&#10;- define all entities using JPA" />
+    <MESSAGE value="controller: interface Controller&#10;&#10;- All controllers must implement this interface to handle all HTTP requests" />
+    <MESSAGE value="model: Model and ExceptionDAO&#10;&#10;- Model allow to initialize the entity manager.&#10;- ExceptionDAO allow to handle errors." />
+    <MESSAGE value="util : add class Util&#10;&#10;- hashing : Calculate the MD5 of string using the algorithm RSA and return the result.&#10;- getCurrentDatetime : return the current date in datetime format." />
+    <option name="LAST_COMMIT_MESSAGE" value="util : add class Util&#10;&#10;- hashing : Calculate the MD5 of string using the algorithm RSA and return the result.&#10;- getCurrentDatetime : return the current date in datetime format." />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Field_Module.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/CandidatureDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/FieldDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/ModuleDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/NotificationDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/ReviewDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/SessionDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/StudentDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/StudyContractDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/UniversityDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/UserDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Session.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Candidature.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/FieldModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/UserNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding>
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/composite_key/UserNotificationCK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/composite_key/StudentUniversityCK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/composite_key/FieldModuleCK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/composite_key/EquivalentModuleCK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/enumerations/StudyContractEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/enumerations/SessionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/ApplicationDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/EquivalentModuleDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/FieldModuleDAO.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/UserNotificationDAO.java" />
+    <entry file="file://$PROJECT_DIR$/web/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/TestServlet.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMPA.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/ExceptionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/AdministratorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/University.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#1682#1683#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="e#1784#1785#0" expanded="true" />
+            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#1905#1906#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+            <element signature="e#1990#1991#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+            <element signature="e#2092#2093#0" expanded="true" />
+            <element signature="e#2132#2133#0" expanded="true" />
+            <element signature="e#2164#2165#0" expanded="true" />
+            <element signature="e#2198#2199#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2274#2275#0" expanded="true" />
+            <element signature="e#2312#2313#0" expanded="true" />
+            <element signature="e#2350#2351#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#2438#2439#0" expanded="true" />
+            <element signature="e#2484#2485#0" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
+            <element signature="e#2567#2568#0" expanded="true" />
+            <element signature="e#2632#2633#0" expanded="true" />
+            <element signature="e#2672#2673#0" expanded="true" />
+            <element signature="e#2716#2717#0" expanded="true" />
+            <element signature="e#2745#2746#0" expanded="true" />
+            <element signature="e#2800#2801#0" expanded="true" />
+            <element signature="e#2836#2837#0" expanded="true" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/models/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -644,10 +1414,73 @@
           <caret line="28" column="76" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/EquivalentModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/models/AdministratorDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -682,10 +1515,147 @@
           <caret line="68" column="50" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Module.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2553#2554#0" expanded="true" />
+            <element signature="e#2582#2583#0" expanded="true" />
+            <element signature="e#3135#3136#0" expanded="true" />
+            <element signature="e#3165#3166#0" expanded="true" />
+            <element signature="e#3233#3234#0" expanded="true" />
+            <element signature="e#3271#3272#0" expanded="true" />
+            <element signature="e#3337#3338#0" expanded="true" />
+            <element signature="e#3377#3378#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Notification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Review.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2153#2154#0" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1659#1660#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
+            <element signature="e#1879#1880#0" expanded="true" />
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#1969#1970#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2033#2034#0" expanded="true" />
+            <element signature="e#2079#2080#0" expanded="true" />
+            <element signature="e#2117#2118#0" expanded="true" />
+            <element signature="e#2147#2148#0" expanded="true" />
+            <element signature="e#2173#2174#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+            <element signature="e#2241#2242#0" expanded="true" />
+            <element signature="e#2277#2278#0" expanded="true" />
+            <element signature="e#2309#2310#0" expanded="true" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2433#2434#0" expanded="true" />
+            <element signature="e#2461#2462#0" expanded="true" />
+            <element signature="e#2503#2504#0" expanded="true" />
+            <element signature="e#2537#2538#0" expanded="true" />
+            <element signature="e#2593#2594#0" expanded="true" />
+            <element signature="e#2628#2629#0" expanded="true" />
+            <element signature="e#2701#2702#0" expanded="true" />
+            <element signature="e#2749#2750#0" expanded="true" />
+            <element signature="e#2796#2797#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2897#2898#0" expanded="true" />
+            <element signature="e#2947#2948#0" expanded="true" />
+            <element signature="e#2993#2994#0" expanded="true" />
+            <element signature="e#3023#3024#0" expanded="true" />
+            <element signature="e#3081#3082#0" expanded="true" />
+            <element signature="e#3119#3120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
+            <element signature="e#1701#1702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/StudyContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+            <element signature="e#2102#2103#0" expanded="true" />
+            <element signature="e#2257#2258#0" expanded="true" />
+            <element signature="e#2284#2285#0" expanded="true" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/SecuredResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -700,5 +1670,124 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/AdministratorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SMPA:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4361335" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>JPA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SMPA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4361335" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>JPA 2.1-2.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+>>>>>>> Stashed changes
   </component>
 </project>
