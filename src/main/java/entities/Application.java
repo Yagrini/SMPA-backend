@@ -1,40 +1,44 @@
 package entities;
 
-import entities.composite_key.StudentUniversityCK;
-
 import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "student_university")
+@Table(name = "applications")
 public class Application implements Serializable {
 
-    @EmbeddedId
-    StudentUniversityCK studentUniversityCK;
-
-    @ManyToOne
-    @MapsId("studentId")
-    private Student student;
-
-    @ManyToOne
-    @MapsId("universityId")
-    private University university;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private Integer id;
 
     @Column(name = "allow_access")
     private Boolean allowAccess;
 
-    @Column(name = "accepted")
-    private Boolean accepted = null;
+    @ManyToOne
+    @JoinColumn( name = "student_id")
+    private Student student;
 
-    @Column(name = "canceled")
-    private Boolean canceled;
+    @ManyToOne
+    @JoinColumn( name = "university_id")
+    private University university;
 
-    public StudentUniversityCK getStudentUniversityCK() {
-        return studentUniversityCK;
+    @OneToOne StudyContract studyContract;
+
+    public Integer getId() {
+        return id;
     }
 
-    public void setStudentUniversityCK(StudentUniversityCK studentUniversityCK) {
-        this.studentUniversityCK = studentUniversityCK;
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Boolean getAllowAccess() {
+        return allowAccess;
+    }
+
+    public void setAllowAccess(Boolean allowAccess) {
+        this.allowAccess = allowAccess;
     }
 
     public Student getStudent() {
@@ -53,27 +57,11 @@ public class Application implements Serializable {
         this.university = university;
     }
 
-    public Boolean getAllowAccess() {
-        return allowAccess;
+    public StudyContract getStudyContract() {
+        return studyContract;
     }
 
-    public void setAllowAccess(Boolean allowAccess) {
-        this.allowAccess = allowAccess;
-    }
-
-    public Boolean getAccepted() {
-        return accepted;
-    }
-
-    public void setAccepted(Boolean accepted) {
-        this.accepted = accepted;
-    }
-
-    public Boolean getCanceled() {
-        return canceled;
-    }
-
-    public void setCanceled(Boolean canceled) {
-        this.canceled = canceled;
+    public void setStudyContract(StudyContract studyContract) {
+        this.studyContract = studyContract;
     }
 }

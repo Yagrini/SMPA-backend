@@ -2,6 +2,7 @@ package entities;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Collection;
@@ -47,8 +48,13 @@ public class University extends User implements Serializable {
     @Column(name = "description")
     private String description;
 
-    @OneToMany(mappedBy = "university")
-    private Collection<Application> students;
+    @NotNull(message = "This field is required")
+    @Pattern(regexp="^(?:33|0)\\s*[5|6](?:[\\s.-]*\\d{2}){4}$", message = "Invalid phone number")
+    @Column(name = "phone")
+    private String phone;
+
+    @OneToMany
+    private Collection<Application> applications;
 
     @OneToMany
     private Collection<Field> fields;
@@ -109,12 +115,20 @@ public class University extends User implements Serializable {
         this.description = description;
     }
 
-    public Collection<Application> getStudents() {
-        return students;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setStudents(Collection<Application> students) {
-        this.students = students;
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public Collection<Application> getApplications() {
+        return applications;
+    }
+
+    public void setApplications(Collection<Application> applications) {
+        this.applications = applications;
     }
 
     public Collection<Field> getFields() {

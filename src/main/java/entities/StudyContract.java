@@ -33,26 +33,27 @@ public class StudyContract implements Serializable {
 
     @NotNull(message = "This field is required")
     @Column(name = "first_semester")
-    private Integer first_semester;
+    private Integer firstSemester;
 
     @NotNull(message = "This field is required")
     @Enumerated(EnumType.STRING)
     private StudyContractEnum type;
 
-    @Column(name = "accepted", nullable = true)
-    private Boolean accepted;
+    @Column(name = "accepted_by_student", nullable = true)
+    private Boolean acceptedByStudent;
 
-    @NotNull(message = "This field is required")
-    @Temporal(TemporalType.TIMESTAMP)
-    @Column(name = "created_at")
-    private Date created_at;
+    @Column(name = "accepted_by_university", nullable = true)
+    private Boolean acceptedByUniversity;
+
+    @Column(name = "accepted_by_insa", nullable = true)
+    private Boolean acceptedByINSA;
 
     @OneToOne
-    @JoinColumn(name = "idStudent")
-    private Student student;
+    @JoinColumn(name = "application_id")
+    private Application application;
 
-    @ManyToMany
-    private Collection<Module> modules;
+    @OneToMany(mappedBy = "studyContract")
+    private Collection<StudyContractUF> studyContractUF;
 
     public Integer getId() {
         return id;
@@ -86,12 +87,12 @@ public class StudyContract implements Serializable {
         this.semesterNbr = semesterNbr;
     }
 
-    public Integer getFirst_semester() {
-        return first_semester;
+    public Integer getFirstSemester() {
+        return firstSemester;
     }
 
-    public void setFirst_semester(Integer first_semester) {
-        this.first_semester = first_semester;
+    public void setFirstSemester(Integer firstSemester) {
+        this.firstSemester = firstSemester;
     }
 
     public StudyContractEnum getType() {
@@ -102,35 +103,43 @@ public class StudyContract implements Serializable {
         this.type = type;
     }
 
-    public Boolean getAccepted() {
-        return accepted;
+    public Boolean getAcceptedByStudent() {
+        return acceptedByStudent;
     }
 
-    public void setAccepted(Boolean accepted) {
-        this.accepted = accepted;
+    public void setAcceptedByStudent(Boolean acceptedByStudent) {
+        this.acceptedByStudent = acceptedByStudent;
     }
 
-    public Date getCreated_at() {
-        return created_at;
+    public Boolean getAcceptedByUniversity() {
+        return acceptedByUniversity;
     }
 
-    public void setCreated_at(Date created_at) {
-        this.created_at = created_at;
+    public void setAcceptedByUniversity(Boolean acceptedByUniversity) {
+        this.acceptedByUniversity = acceptedByUniversity;
     }
 
-    public Student getStudent() {
-        return student;
+    public Boolean getAcceptedByINSA() {
+        return acceptedByINSA;
     }
 
-    public void setStudent(Student student) {
-        this.student = student;
+    public void setAcceptedByINSA(Boolean acceptedByINSA) {
+        this.acceptedByINSA = acceptedByINSA;
     }
 
-    public Collection<Module> getModules() {
-        return modules;
+    public Application getApplication() {
+        return application;
     }
 
-    public void setModules(Collection<Module> modules) {
-        this.modules = modules;
+    public void setApplication(Application application) {
+        this.application = application;
+    }
+
+    public Collection<StudyContractUF> getStudyContractUF() {
+        return studyContractUF;
+    }
+
+    public void setStudyContractUF(Collection<StudyContractUF> studyContractUF) {
+        this.studyContractUF = studyContractUF;
     }
 }

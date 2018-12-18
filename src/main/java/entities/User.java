@@ -92,6 +92,14 @@ public class User implements Serializable {
         this.created_at = created_at;
     }
 
+    public Date getUpdated_at() {
+        return updated_at;
+    }
+
+    public void setUpdated_at(Date updated_at) {
+        this.updated_at = updated_at;
+    }
+
     public Date getDeleted_at() {
         return deleted_at;
     }

@@ -9,7 +9,8 @@
           <factory-entry name="NewPersistenceUnit" value="70b92e99-6978-4c4a-ad25-fc7410d4c4ab" />
           <factory-entry name="SMPA-PU" value="6962ec75-c06f-4041-914e-aa32a32bad39" />
         </datasource-mapping>
-        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml" />
+        <naming-strategy-map />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/java/META-INF/persistence.xml" />
       </configuration>
     </facet>
     <facet type="web" name="Web">

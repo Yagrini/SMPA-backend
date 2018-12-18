@@ -20,18 +20,15 @@ public class Field implements Serializable {
     @Column(name = "name")
     private String name;
 
-    @NotNull(message = "This field is required")
-    @Lob
-    @Size(min = 1, max = 65535)
-    @Column(name = "description")
-    private String description;
-
     @ManyToOne
-    @JoinColumn( name = "idUniversity")
+    @JoinColumn( name = "university_id")
     private University university;
 
     @OneToMany(mappedBy = "field")
-    private Collection<FieldModule> modules;
+    private Collection<FieldUF> uf;
+
+    @OneToMany
+    private Collection<Student> students;
 
     public Integer getId() {
         return id;
@@ -49,14 +46,6 @@ public class Field implements Serializable {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
     public University getUniversity() {
         return university;
     }
@@ -65,11 +54,19 @@ public class Field implements Serializable {
         this.university = university;
     }
 
-    public Collection<FieldModule> getModules() {
-        return modules;
+    public Collection<FieldUF> getUf() {
+        return uf;
     }
 
-    public void setModules(Collection<FieldModule> modules) {
-        this.modules = modules;
+    public void setUf(Collection<FieldUF> uf) {
+        this.uf = uf;
+    }
+
+    public Collection<Student> getStudents() {
+        return students;
+    }
+
+    public void setStudents(Collection<Student> students) {
+        this.students = students;
     }
 }
