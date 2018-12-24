@@ -25,7 +25,7 @@ public class Review implements Serializable {
 
     @NotNull(message = "This field is required")
     @Column(name = "retake_session_note")
-    private Float RetakeSessionNote;
+    private Float RetakeSessionNote = null;
 
     @Column(name = "valid", nullable = true)
     private Boolean valid;

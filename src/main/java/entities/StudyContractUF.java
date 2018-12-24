@@ -20,8 +20,9 @@ public class StudyContractUF implements Serializable {
     @MapsId("ufId")
     private UF uf;
 
-    @Column(name = "suggestion")
-    private Integer suggestion;
+    @ManyToOne
+    @JoinColumn( name = "suggestion")
+    private UF suggestion;
 
     public StudyContractUFCK getStudyContractUFCK() {
         return studyContractUFCK;
@@ -47,11 +48,11 @@ public class StudyContractUF implements Serializable {
         this.uf = uf;
     }
 
-    public Integer getSuggestion() {
+    public UF getSuggestion() {
         return suggestion;
     }
 
-    public void setSuggestion(Integer suggestion) {
+    public void setSuggestion(UF suggestion) {
         this.suggestion = suggestion;
     }
 }
