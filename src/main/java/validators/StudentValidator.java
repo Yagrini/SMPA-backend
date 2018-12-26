@@ -79,24 +79,4 @@ public class StudentValidator extends Validator {
         if (last_name != null && last_name.length() < 3)
             throw new Exception("The last name must contain at least 3 characters.");
     }
-
-    private void validateEmail(String email) throws Exception {
-        if (email != null) {
-            if (!email.matches( "([^.@]+)(\\.[^.@]+)*@([^.@]+\\.)+([^.@]+)"))
-                throw new Exception("Please enter a valid email address.");
-        }
-        else
-            throw new Exception("Please enter an email address.");
-    }
-
-    private void validatePassword(String password, String confirm_password) throws Exception {
-        if (password != null && confirm_password != null) {
-            if (!password.equals(confirm_password))
-                throw new Exception("Password and confirmation password are different, please enter them again.");
-            else if (password.length() < 2)
-                throw new Exception("Passwords must contain at least 2 characters.");
-        }
-        else
-            throw new Exception("Please enter and confirm your password.");
-    }
 }
