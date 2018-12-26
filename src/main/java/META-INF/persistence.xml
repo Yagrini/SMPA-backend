@@ -5,23 +5,24 @@
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <class>entities.Administrator</class>
         <class>entities.Application</class>
-        <class>entities.EquivalentModule</class>
+        <class>entities.EquivalentUF</class>
         <class>entities.Field</class>
-        <class>entities.FieldModule</class>
-        <class>entities.Module</class>
+        <class>entities.FieldUF</class>
+        <class>entities.UF</class>
         <class>entities.Notification</class>
         <class>entities.Review</class>
         <class>entities.Student</class>
         <class>entities.StudyContract</class>
         <class>entities.University</class>
         <class>entities.User</class>
+        <class>entities.StudyContractUF</class>
         <class>entities.UserNotification</class>
         <properties>
             <property name="eclipselink.jdbc.url" value="jdbc:mysql://localhost:3306/smpa"/>
             <property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
             <property name="eclipselink.jdbc.user" value="root"/>
             <property name="eclipselink.jdbc.password" value="root"/>
-            <property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+            <!--property name="eclipselink.ddl-generation" value="drop-and-create-tables" /-->
             <property name="eclipselink.ddl-generation.output-mode" value="database" />
         </properties>
     </persistence-unit>

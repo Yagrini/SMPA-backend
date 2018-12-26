@@ -2,19 +2,96 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SMPA:war" />
+      <artifact name="SMPA:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="781a63a4-ed22-4075-ab91-9117e815e2cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/ResponseBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SMPA_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SMPA_war.xml" afterDir="false" />
+    <list default="true" id="e88248c6-e557-450b-8862-4d89a8d7b4b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SMPA_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/EquivalentUF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/StudyContractUF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/composite_key/EquivalentUFCK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/composite_key/StudyContractUFCK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filters/PasswordResetFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filters/SecurityFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filters/TokenResponseFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/AuthenticationResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/ResponseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/Authentication/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/Authentication/PasswordResetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/validators/StudentValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/validators/Validator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/SMPA_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SMPA_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/70b92e99-6978-4c4a-ad25-fc7410d4c4ab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/70b92e99-6978-4c4a-ad25-fc7410d4c4ab.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SMPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SMPA.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/AdministratorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/EquivalentModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/FieldModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/FieldUF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/UF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/StudyContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/StudyContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/UserNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/UserNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/composite_key/EquivalentModuleCK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/composite_key/FieldModuleCK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/composite_key/FieldUFCK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/composite_key/StudentUniversityCK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/composite_key/UserNotificationCK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/composite_key/UserNotificationCK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enumerations/SessionEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/AdministratorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/AdministratorDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/controllers/AdministratorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/EquivalentModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Field.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/FieldModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Module.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Review.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/StudyContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/StudyContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/University.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/University.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/UserNotification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/UserNotification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/EquivalentModuleCK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/FieldModuleCK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/StudentUniversityCK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/UserNotificationCK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/UserNotificationCK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/enumerations/SessionEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/models/AdministratorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/models/AdministratorDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/AdministratorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/EquivalentModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Field.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/FieldModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Module.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Review.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/StudyContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/StudyContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/University.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/University.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/UserNotification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/UserNotification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/composite_key/EquivalentModuleCK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/composite_key/FieldModuleCK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/composite_key/StudentUniversityCK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/composite_key/UserNotificationCK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/composite_key/UserNotificationCK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/enumerations/SessionEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/AdministratorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/AdministratorDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,101 +117,45 @@
     <session id="635401648">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="90" />
-          <entry key="xml" value="6" />
+          <entry key="class" value="7" />
+          <entry key="java" value="98" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="90" />
-          <entry key="XML" value="6" />
+          <entry key="CLASS" value="7" />
+          <entry key="JAVA" value="98" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="38" />
-          <entry key="java" value="5919" />
-          <entry key="xml" value="24" />
+          <entry key="java" value="4736" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5919" />
-          <entry key="PLAIN_TEXT" value="38" />
-          <entry key="XML" value="24" />
+          <entry key="JAVA" value="4736" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/Authentication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/filters/SecurityFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/ResetPassword.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/services/PasswordResetService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="68" column="50" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/SecuredResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="32" column="15" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -145,14 +166,24 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dty</find>
-      <find>DTYPE</find>
-      <find>passw</find>
-      <find>ACCESS_FORBIDDEN</find>
-      <find>logger</find>
-      <find>rol</find>
-      <find>Not allowed to access this resource!</find>
+      <find>LOG_OUT_PREFIX</find>
+      <find>throw e</find>
+      <find>id</find>
+      <find>join</find>
+      <find>fields</find>
+      <find>univer</find>
+      <find>fieldu</find>
+      <find>getapplica</find>
+      <find>getuniver</find>
+      <find>reference</find>
+      <find>JsonManagedReference</find>
+      <find>JsonBackReference</find>
+      <find>notifi</find>
     </findStrings>
+    <replaceStrings>
+      <replace>e.printStackTrace();</replace>
+      <replace>JsonIgnore</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -160,29 +191,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/LoggingFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/PoweredByResponseFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/UserSignIn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/User.java" />
-        <option value="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/SecurityFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/SecuredResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/services/ForgottenPassword.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/services/ResetPassword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/ResponseBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/resources/ResponseBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/filters/PasswordResetFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/filters/TokenResponseFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/services/AuthenticationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/Authentication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/filters/SecurityFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/ResetPassword.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/services/PasswordResetService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/resources/Authentication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/resources/SecuredResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/filters/SecurityFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/Authentication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/SecuredResource.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/AdministratorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/AuthenticationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enumerations/StudyContractEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Administrator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/composite_key/StudyContractUFCK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/composite_key/UserNotificationCK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/composite_key/FieldUFCK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/composite_key/EquivalentUFCK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Review.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validators/university/CreateStudentValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validators/CreateStudentValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validators/Validator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validators/StudentValidator.java" />
+        <option value="$PROJECT_DIR$/target/SMPA/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/AuthenticationResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/FieldUF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/FieldDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/ApplicationDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/UniversityDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/AdministratorDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/EquivalentUFDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/StudyContractUF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/UFDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validators/UserValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/StudentDAO.java" />
+        <option value="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/University.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Notification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/StudyContract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/NotificationDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/UserNotification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Field.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/TestDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/UF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/EquivalentUF.java" />
       </list>
     </option>
   </component>
@@ -215,12 +274,14 @@
     <option name="width" value="1680" />
     <option name="height" value="963" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,96 +292,33 @@
             <path>
               <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544662877068" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545776562196" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="controllers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/target/SMPA/WEB-INF/classes" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/entities" />
+      <recent name="$PROJECT_DIR$/target/classes/entities" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="D:\Utilisateurs\Ayman\Documents\IdeaProjects\SMPA\target\SMPA\WEB-INF\classes\META-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,21 +334,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.SMPA">
-    <configuration name="PasswordResetService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controllers.services.PasswordResetService" />
-      <module name="SMPA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="models.UserDAO" />
+    <configuration name="UniversityDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="models.UniversityDAO" />
       <module name="SMPA" />
       <extension name="coverage">
         <pattern>
@@ -366,14 +351,14 @@
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SMPA:war">
+        <artifact name="SMPA:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SMPA-backend_3" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SMPA-backend_4" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -381,7 +366,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53802" />
+        <option name="DEBUG_PORT" value="59746" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -431,19 +416,17 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SMPA:war" />
+          <artifact name="SMPA:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.SMPA" />
-      <item itemvalue="Application.UserDAO" />
-      <item itemvalue="Application.PasswordResetService" />
+      <item itemvalue="Application.UniversityDAO" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PasswordResetService" />
-        <item itemvalue="Application.UserDAO" />
+        <item itemvalue="Application.UniversityDAO" />
       </list>
     </recent_temporary>
   </component>
@@ -452,35 +435,158 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="781a63a4-ed22-4075-ab91-9117e815e2cd" name="Default Changelist" comment="" />
-      <created>1544043682994</created>
+      <changelist id="e88248c6-e557-450b-8862-4d89a8d7b4b0" name="Default Changelist" comment="" />
+      <created>1542580925758</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544043682994</updated>
-      <workItem from="1544043690024" duration="18000" />
-      <workItem from="1544043723331" duration="15000" />
-      <workItem from="1544043775556" duration="4122000" />
-      <workItem from="1544099230338" duration="6429000" />
-      <workItem from="1544222471076" duration="1792000" />
-      <workItem from="1544305857370" duration="120000" />
-      <workItem from="1544464548587" duration="13165000" />
-      <workItem from="1544542538682" duration="18000" />
-      <workItem from="1544558222555" duration="14214000" />
-      <workItem from="1544648891119" duration="8316000" />
-      <workItem from="1544906315192" duration="1808000" />
-      <workItem from="1544952028983" duration="2599000" />
-      <workItem from="1544966776800" duration="204000" />
+      <updated>1542580925758</updated>
+      <workItem from="1542580929753" duration="3945000" />
+      <workItem from="1542623162473" duration="6621000" />
+      <workItem from="1542664988145" duration="3642000" />
+      <workItem from="1542747532797" duration="11592000" />
+      <workItem from="1542843067242" duration="682000" />
+      <workItem from="1542843961892" duration="567000" />
+      <workItem from="1542917591224" duration="32000" />
+      <workItem from="1542972663271" duration="3062000" />
+      <workItem from="1543010426081" duration="1270000" />
+      <workItem from="1543011876981" duration="2262000" />
+      <workItem from="1543059039497" duration="1573000" />
+      <workItem from="1543065678779" duration="1318000" />
+      <workItem from="1543079264738" duration="2190000" />
+      <workItem from="1543088271506" duration="221000" />
+      <workItem from="1543100010561" duration="66000" />
+      <workItem from="1543101026763" duration="6000" />
+      <workItem from="1543109724526" duration="1581000" />
+      <workItem from="1543149273794" duration="14145000" />
+      <workItem from="1543176110463" duration="1662000" />
+      <workItem from="1543183763599" duration="19000" />
+      <workItem from="1543430440845" duration="1976000" />
+      <workItem from="1543502682451" duration="32000" />
+      <workItem from="1543704232450" duration="2247000" />
+      <workItem from="1543756992747" duration="42000" />
+      <workItem from="1544038779920" duration="6000" />
+      <workItem from="1544042591659" duration="196000" />
+      <workItem from="1544228311665" duration="851000" />
+      <workItem from="1544972421909" duration="11505000" />
+      <workItem from="1544992750413" duration="634000" />
+      <workItem from="1545048571855" duration="5417000" />
+      <workItem from="1545133837363" duration="204000" />
+      <workItem from="1545134068122" duration="4032000" />
+      <workItem from="1545140510404" duration="260000" />
+      <workItem from="1545167929428" duration="35000" />
+      <workItem from="1545169280004" duration="415000" />
+      <workItem from="1545171098881" duration="1839000" />
+      <workItem from="1545229088231" duration="40000" />
+      <workItem from="1545229176821" duration="80000" />
+      <workItem from="1545341384129" duration="5018000" />
+      <workItem from="1545782027982" duration="1234000" />
+      <workItem from="1545818164862" duration="3210000" />
     </task>
+    <task id="LOCAL-00001" summary="fix: update entities">
+      <created>1545137682495</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545137682495</updated>
+    </task>
+    <task id="LOCAL-00002" summary="model: implement JPA&#10;&#10;- define all entities using JPA">
+      <created>1543060167194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543060167194</updated>
+    </task>
+    <task id="LOCAL-00003" summary="model: implement JPA&#10;&#10;- define all entities using JPA">
+      <created>1543079901357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543079901357</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tetete">
+      <created>1543080809893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543080809893</updated>
+    </task>
+    <task id="LOCAL-00005" summary="model: implement JPA&#10;&#10;- define all entities using JPA">
+      <created>1543176241159</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543176241159</updated>
+    </task>
+    <task id="LOCAL-00006" summary="controller: interface Controller&#10;&#10;- All controllers must implement this interface to handle all HTTP requests">
+      <created>1543176723792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543176723792</updated>
+    </task>
+    <task id="LOCAL-00007" summary="model: Model and ExceptionDAO&#10;&#10;- Model allow to initialize the entity manager.&#10;- ExceptionDAO allow to handle errors.">
+      <created>1543176896799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543176896799</updated>
+    </task>
+    <task id="LOCAL-00008" summary="util : add class Util&#10;&#10;- hashing : Calculate the MD5 of string using the algorithm RSA and return the result.&#10;- getCurrentDatetime : return the current date in datetime format.">
+      <created>1543177146060</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543177146060</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52820000" />
+    <option name="totallyTimeSpent" value="53098000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="963" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2802198" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931973" visible="true" weight="0.35103786" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="2" sideWeight="0.50068027" side_tool="true" weight="0.35103786" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Learn" order="8" />
+      <window_info id="Web" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3838527" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.2244898" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="CDI" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2590604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -488,33 +594,36 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Learn" order="8" />
+      <window_info id="Web" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.19897959" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19977038" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.3243626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50061053" side_tool="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Application Servers" order="12" sideWeight="0.4993895" weight="0.32959184" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32959184" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3838527" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.22521247" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="CDI" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32967034" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
-    </layout>
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="CDI" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -522,181 +631,444 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: update entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: update entities" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/LoggingFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/PoweredByResponseFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Util.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/enumerations/SessionEnum.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/Authentication/AuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/composite_key/UserNotificationCK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/composite_key/FieldUFCK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/composite_key/StudyContractUFCK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/composite_key/EquivalentUFCK.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Administrator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/enumerations/StudyContractEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="93" selection-start-line="23" selection-start-column="93" selection-end-line="23" selection-end-column="93" />
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        <state relative-caret-position="165">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1-sources.jar!/javax/ws/rs/core/Response.java">
+    <entry file="file://$PROJECT_DIR$/target/SMPA/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="1329" column="8" selection-start-line="1329" selection-start-column="8" selection-end-line="1329" selection-end-column="8" />
+        <state relative-caret-position="105">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Model.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/ResponseBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/University.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/ExceptionDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        <state relative-caret-position="75">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="360">
+          <caret line="24" column="93" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/services/ForgottenPassword.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/AuthenticationResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/ResponseBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="499">
+          <caret line="62" column="62" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/entities/User.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/entities/University.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/entities/Field.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/entities/jaxb.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Field.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/services/AuthenticationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="37" column="64" lean-forward="true" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/filters/TokenResponseFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/filters/PasswordResetFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="28" column="76" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-96">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/AdministratorDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-end-line="7" />
+        <state relative-caret-position="240">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/AdministratorController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/validators/UserValidator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/validators/StudentValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/Authentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/ResetPassword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/services/PasswordResetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="68" column="50" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="50" />
+        <state relative-caret-position="285">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/SecuredResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/validators/Validator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="15" />
+        <state relative-caret-position="465">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/filters/SecurityFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/UniversityDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        <state relative-caret-position="915">
+          <caret line="64" column="20" selection-start-line="56" selection-start-column="8" selection-end-line="64" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/jaxb.properties" />
+    <entry file="file://$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/StudentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/ApplicationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Application.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Student.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="39" column="58" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/FieldDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/EquivalentUFDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/FieldUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Review.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-481">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2888#2889#0" expanded="true" />
+            <element signature="e#2930#2931#0" expanded="true" />
+            <element signature="e#3638#3639#0" expanded="true" />
+            <element signature="e#3686#3687#0" expanded="true" />
+            <element signature="e#4098#4099#0" expanded="true" />
+            <element signature="e#4130#4131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/StudyContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1891#1892#0" expanded="true" />
+            <element signature="e#1935#1936#0" expanded="true" />
+            <element signature="e#1973#1974#0" expanded="true" />
+            <element signature="e#2012#2013#0" expanded="true" />
+            <element signature="e#2046#2047#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2147#2148#0" expanded="true" />
+            <element signature="e#2188#2189#0" expanded="true" />
+            <element signature="e#2224#2225#0" expanded="true" />
+            <element signature="e#2283#2284#0" expanded="true" />
+            <element signature="e#2333#2334#0" expanded="true" />
+            <element signature="e#2375#2376#0" expanded="true" />
+            <element signature="e#2402#2403#0" expanded="true" />
+            <element signature="e#2453#2454#0" expanded="true" />
+            <element signature="e#2485#2486#0" expanded="true" />
+            <element signature="e#2530#2531#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2637#2638#0" expanded="true" />
+            <element signature="e#2695#2696#0" expanded="true" />
+            <element signature="e#2743#2744#0" expanded="true" />
+            <element signature="e#2786#2787#0" expanded="true" />
+            <element signature="e#2965#2966#0" expanded="true" />
+            <element signature="e#3002#3003#0" expanded="true" />
+            <element signature="e#3063#3064#0" expanded="true" />
+            <element signature="e#3115#3116#0" expanded="true" />
+            <element signature="e#3158#3159#0" expanded="true" />
+            <element signature="e#3192#3193#0" expanded="true" />
+            <element signature="e#3251#3252#0" expanded="true" />
+            <element signature="e#3297#3298#0" expanded="true" />
+            <element signature="e#3360#3361#0" expanded="true" />
+            <element signature="e#3398#3399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/University.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/StudyContractUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Notification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/UserNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/NotificationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/UFDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/EquivalentUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/UF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/TestDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

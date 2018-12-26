@@ -4,15 +4,24 @@ import entities.Administrator;
 
 public class AdministratorDAO extends Model {
 
-    private Model model = new Model();
-
     public void add(Administrator administrator) throws ExceptionDAO{
         try {
-            model.getEm().getTransaction().begin();
-            model.getEm().persist(administrator);
-            model.getEm().getTransaction().commit();
+            this.getEm().getTransaction().begin();
+            this.getEm().persist(administrator);
+            this.getEm().getTransaction().commit();
         } catch (Exception e) {
             throw new ExceptionDAO(e);
         }
+    }
+// update Administrator
+    public Administrator updateEquivalentUF(Administrator administrator){
+        try {
+            this.getEm().getTransaction().begin();
+            this.getEm().merge(administrator);
+            this.getEm().getTransaction().commit();
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        return administrator;
     }
 }

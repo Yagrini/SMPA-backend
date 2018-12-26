@@ -6,7 +6,7 @@ import utils.Util;
 import javax.persistence.Query;
 
 public class UserDAO extends Model{
-
+// select a user
     public User selectUser(String email){
         User user = null;
         try {
@@ -20,7 +20,7 @@ public class UserDAO extends Model{
         }
         return user;
     }
-
+// get role of user
     public String selectRole(String email){
         String role = null;
         try {
@@ -35,7 +35,7 @@ public class UserDAO extends Model{
         }
         return role;
     }
-
+// update token of user
     public void updateToken(String email, String token){
         User user = null;
         try {
@@ -48,7 +48,7 @@ public class UserDAO extends Model{
             e.printStackTrace();
         }
     }
-
+// update user
     public User update(User user){
         User dbUser = null;
         try {

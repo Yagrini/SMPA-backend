@@ -1,12 +1,7 @@
 package entities.composite_key;
 
-import entities.Notification;
-import entities.User;
-
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
-import javax.persistence.ManyToOne;
 import java.io.Serializable;
 
 

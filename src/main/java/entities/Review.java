@@ -1,7 +1,5 @@
 package entities;
 
-import enumerations.SessionEnum;
-
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
@@ -22,33 +20,23 @@ public class Review implements Serializable {
     private Date date;
 
     @NotNull(message = "This field is required")
-    @Column(name = "note")
-    private Float note;
-
-    @Column(name = "percent", nullable = true)
-    private Float percent;
+    @Column(name = "normal_session_note")
+    private Float normalSessionNote;
 
     @NotNull(message = "This field is required")
-    @Column(name = "semester")
-    private Integer semester;
+    @Column(name = "retake_session_note")
+    private Float RetakeSessionNote = null;
 
-    @NotNull(message = "This field is required")
-    @Column(name = "session")
-    private SessionEnum session;
-
-    @Column(name = "validated", nullable = true)
-    private Boolean validated;
-
-    @Column(name = "insa")
-    private Boolean insa;
+    @Column(name = "valid", nullable = true)
+    private Boolean valid;
 
     @ManyToOne
-    @JoinColumn( name = "idStudent")
+    @JoinColumn( name = "student_id")
     private Student student;
 
     @ManyToOne
-    @JoinColumn( name = "idModule")
-    private Module module;
+    @JoinColumn( name = "uf_id")
+    private UF uf;
 
     public Integer getId() {
         return id;
@@ -66,52 +54,28 @@ public class Review implements Serializable {
         this.date = date;
     }
 
-    public Float getNote() {
-        return note;
+    public Float getNormalSessionNote() {
+        return normalSessionNote;
     }
 
-    public void setNote(Float note) {
-        this.note = note;
+    public void setNormalSessionNote(Float normalSessionNote) {
+        this.normalSessionNote = normalSessionNote;
     }
 
-    public Float getPercent() {
-        return percent;
+    public Float getRetakeSessionNote() {
+        return RetakeSessionNote;
     }
 
-    public void setPercent(Float percent) {
-        this.percent = percent;
+    public void setRetakeSessionNote(Float retakeSessionNote) {
+        RetakeSessionNote = retakeSessionNote;
     }
 
-    public Integer getSemester() {
-        return semester;
+    public Boolean getValid() {
+        return valid;
     }
 
-    public void setSemester(Integer semester) {
-        this.semester = semester;
-    }
-
-    public SessionEnum getSession() {
-        return session;
-    }
-
-    public void setSession(SessionEnum session) {
-        this.session = session;
-    }
-
-    public Boolean getValidated() {
-        return validated;
-    }
-
-    public void setValidated(Boolean validated) {
-        this.validated = validated;
-    }
-
-    public Boolean getInsa() {
-        return insa;
-    }
-
-    public void setInsa(Boolean insa) {
-        this.insa = insa;
+    public void setValid(Boolean valid) {
+        this.valid = valid;
     }
 
     public Student getStudent() {
@@ -122,11 +86,11 @@ public class Review implements Serializable {
         this.student = student;
     }
 
-    public Module getModule() {
-        return module;
+    public UF getUf() {
+        return uf;
     }
 
-    public void setModule(Module module) {
-        this.module = module;
+    public void setUf(UF uf) {
+        this.uf = uf;
     }
 }

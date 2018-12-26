@@ -2,11 +2,15 @@ package entities;
 
 import entities.composite_key.UserNotificationCK;
 
+import javax.json.bind.annotation.JsonbTransient;
 import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
 @Table(name = "user_notification")
+@NamedQueries({
+        @NamedQuery(name = "Notification.getByUser", query = "SELECT un.notification FROM UserNotification un WHERE un.user.id = :id")
+})
 public class UserNotification implements Serializable {
 
     @EmbeddedId
@@ -18,6 +22,7 @@ public class UserNotification implements Serializable {
 
     @ManyToOne
     @MapsId("notificationId")
+    @JsonbTransient
     private Notification notification;
 
     @Column(name = "mark_as_read")
