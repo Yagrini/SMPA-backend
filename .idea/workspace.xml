@@ -7,89 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e88248c6-e557-450b-8862-4d89a8d7b4b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/SMPA_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/EquivalentUF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/StudyContractUF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/composite_key/EquivalentUFCK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/composite_key/StudyContractUFCK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filters/PasswordResetFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filters/SecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filters/TokenResponseFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/AuthenticationResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/ResponseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/Authentication/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/Authentication/PasswordResetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/validators/StudentValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/validators/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SMPA_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SMPA_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/70b92e99-6978-4c4a-ad25-fc7410d4c4ab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/70b92e99-6978-4c4a-ad25-fc7410d4c4ab.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SMPA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/AdministratorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/EquivalentModule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/FieldModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/FieldUF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/UF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Notification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/StudyContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/StudyContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/UserNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/UserNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/composite_key/EquivalentModuleCK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/composite_key/FieldModuleCK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/composite_key/FieldUFCK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/composite_key/StudentUniversityCK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/composite_key/UserNotificationCK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/composite_key/UserNotificationCK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enumerations/SessionEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/AdministratorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/AdministratorDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/controllers/AdministratorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/EquivalentModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Field.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/FieldModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Module.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Review.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/StudyContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/StudyContract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/University.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/University.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/UserNotification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/UserNotification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/EquivalentModuleCK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/FieldModuleCK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/StudentUniversityCK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/UserNotificationCK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/entities/composite_key/UserNotificationCK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/enumerations/SessionEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/models/AdministratorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/models/AdministratorDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SMPA/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SMPA/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/AdministratorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/EquivalentModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Field.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/FieldModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Module.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Review.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/StudyContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/StudyContract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/University.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/University.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/UserNotification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/UserNotification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/composite_key/EquivalentModuleCK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/composite_key/FieldModuleCK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/composite_key/StudentUniversityCK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/composite_key/UserNotificationCK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/composite_key/UserNotificationCK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/enumerations/SessionEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/AdministratorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/AdministratorDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -120,8 +38,9 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -129,7 +48,7 @@
           <entry key="class" value="7" />
           <entry key="java" value="98" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="18" />
+          <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -137,7 +56,7 @@
           <entry key="CLASS" value="7" />
           <entry key="JAVA" value="98" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="18" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -155,7 +74,26 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="87" lean-forward="true" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -216,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/main/java/validators/StudentValidator.java" />
         <option value="$PROJECT_DIR$/target/SMPA/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/resources/AuthenticationResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/entities/FieldUF.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/FieldDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/ApplicationDAO.java" />
@@ -228,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/main/java/models/UFDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/validators/UserValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/StudentDAO.java" />
-        <option value="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/entities/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/Student.java" />
@@ -242,6 +178,8 @@
         <option value="$PROJECT_DIR$/src/main/java/resources/TestDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/UF.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/EquivalentUF.java" />
+        <option value="$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
       </list>
     </option>
   </component>
@@ -282,12 +220,74 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="SMPA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="SMPA" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="SMPA" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMPA-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="SMPA" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SMPA-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -299,7 +299,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -481,6 +480,7 @@
       <workItem from="1545341384129" duration="5018000" />
       <workItem from="1545782027982" duration="1234000" />
       <workItem from="1545818164862" duration="3210000" />
+      <workItem from="1545823038557" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="fix: update entities">
       <created>1545137682495</created>
@@ -542,12 +542,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53098000" />
+    <option name="totallyTimeSpent" value="53146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931973" visible="true" weight="0.35103786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931973" visible="true" weight="0.35531136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" sideWeight="0.50068027" side_tool="true" weight="0.35103786" />
       <window_info id="Designer" order="3" />
@@ -655,9 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -717,20 +715,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="93" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/AuthenticationResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
           <caret line="62" column="62" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,9 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,20 +782,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/jaxb.properties" />
-    <entry file="file://$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/StudentDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,9 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
           <caret line="23" column="30" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,9 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,9 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,9 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,9 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,15 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-481">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2888#2889#0" expanded="true" />
-            <element signature="e#2930#2931#0" expanded="true" />
-            <element signature="e#3638#3639#0" expanded="true" />
-            <element signature="e#3686#3687#0" expanded="true" />
-            <element signature="e#4098#4099#0" expanded="true" />
-            <element signature="e#4130#4131#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -908,49 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1608#1609#0" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1673#1674#0" expanded="true" />
-            <element signature="e#1707#1708#0" expanded="true" />
-            <element signature="e#1739#1740#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
-            <element signature="e#1829#1830#0" expanded="true" />
-            <element signature="e#1861#1862#0" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#1973#1974#0" expanded="true" />
-            <element signature="e#2012#2013#0" expanded="true" />
-            <element signature="e#2046#2047#0" expanded="true" />
-            <element signature="e#2101#2102#0" expanded="true" />
-            <element signature="e#2147#2148#0" expanded="true" />
-            <element signature="e#2188#2189#0" expanded="true" />
-            <element signature="e#2224#2225#0" expanded="true" />
-            <element signature="e#2283#2284#0" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2375#2376#0" expanded="true" />
-            <element signature="e#2402#2403#0" expanded="true" />
-            <element signature="e#2453#2454#0" expanded="true" />
-            <element signature="e#2485#2486#0" expanded="true" />
-            <element signature="e#2530#2531#0" expanded="true" />
-            <element signature="e#2570#2571#0" expanded="true" />
-            <element signature="e#2637#2638#0" expanded="true" />
-            <element signature="e#2695#2696#0" expanded="true" />
-            <element signature="e#2743#2744#0" expanded="true" />
-            <element signature="e#2786#2787#0" expanded="true" />
-            <element signature="e#2965#2966#0" expanded="true" />
-            <element signature="e#3002#3003#0" expanded="true" />
-            <element signature="e#3063#3064#0" expanded="true" />
-            <element signature="e#3115#3116#0" expanded="true" />
-            <element signature="e#3158#3159#0" expanded="true" />
-            <element signature="e#3192#3193#0" expanded="true" />
-            <element signature="e#3251#3252#0" expanded="true" />
-            <element signature="e#3297#3298#0" expanded="true" />
-            <element signature="e#3360#3361#0" expanded="true" />
-            <element signature="e#3398#3399#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -958,9 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,9 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -978,9 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
           <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -988,9 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1012,9 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1022,9 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,9 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,9 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1052,9 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,13 +943,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/SMPA/WEB-INF/classes/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="87" lean-forward="true" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
         </state>
       </provider>
     </entry>
