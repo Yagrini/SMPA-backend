@@ -19,47 +19,32 @@ public class StudentValidator extends Validator {
     private static final String PASSWORD         = "password";
     private static final String CONFIRM_PASSWORD = "confirm_password";
 
-    public Student createStudent(HttpServletRequest request) {
-        Student student         = new Student();
-        String first_name       = getFieldValue(request, FIRST_NAME);
-        String last_name        = getFieldValue(request, LAST_NAME);
-        String email            = getFieldValue(request, EMAIL);
-        String picture          = getFieldValue(request, PICTURE);
-        String sex              = getFieldValue(request, SEX);
-        String birth_date       = getFieldValue(request, BIRTH_DATE);
-        String level            = getFieldValue(request, LEVEL);
-        String field_name       = getFieldValue(request, FIELD_NAME);
-        String password         = getFieldValue(request, PASSWORD);
-        String confirm_password = getFieldValue(request, CONFIRM_PASSWORD);
-
+    public Student createStudent(Student student) {
         try {
-            validateFirstName(first_name);
+            validateFirstName(student.getFirstName());
         } catch (Exception e) {
             addError(FIRST_NAME, e.getMessage());
         }
 
         try {
-            validateLastName(last_name);
+            validateLastName(student.getLastName());
         } catch (Exception e) {
             addError(LAST_NAME, e.getMessage());
         }
 
         try {
-            validateEmail(email);
+            validateEmail(student.getEmail());
         } catch (Exception e) {
             addError(EMAIL, e.getMessage());
         }
 
         try {
-            validatePassword( password, confirm_password );
+            validatePassword( student.getPassword(), student.getConfirmPassword() );
         } catch ( Exception e ) {
             addError( PASSWORD, e.getMessage() );
         }
 
-        student.setFirstName(first_name);
-        student.setLastName(last_name);
-        student.setEmail(email);
-        student.setPassword(Util.hashing(password));
+        student.setPassword(Util.hashing(student.getPassword()));
 
 
         if (errors.isEmpty())
