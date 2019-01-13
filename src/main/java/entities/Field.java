@@ -35,6 +35,7 @@ public class Field implements Serializable {
 
     @OneToMany
     @JsonbTransient
+
     private Collection<Student> students;
 
     public Integer getId() {
