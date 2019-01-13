@@ -23,7 +23,6 @@ public class Review implements Serializable {
     @Column(name = "normal_session_note")
     private Float normalSessionNote;
 
-    @NotNull(message = "This field is required")
     @Column(name = "retake_session_note")
     private Float RetakeSessionNote = null;
 

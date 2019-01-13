@@ -37,4 +37,19 @@ public class Validator {
             return value.trim();
         }
     }
+
+    protected void validateNumber(String number, String message) throws Exception {
+        if (number != null) {
+            if (!number.matches( "(\\d+)"))
+                throw new Exception("Please enter a valid " + message + ".");
+        }
+        else
+            throw new Exception("The field " + message + " is required");
+    }
+
+    protected void validateDate(String date) throws Exception {
+        if (date == null)
+            throw new Exception("The field date is required.");
+
+    }
 }
